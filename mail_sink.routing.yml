@@ -1,0 +1,7 @@
+mail_sink.debug_settings:
+  path: '/admin/config/development/mail_sink'
+  defaults:
+    _form: 'Drupal\mail_sink\Form\MailSinkConfigForm'
+    _title: 'Mail Sink Settings'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,6 @@
+mail_sink.debug_settings:
+  title: 'Mail Sink settings'
+  parent: system.admin_config_development
+  description: 'Turn off outgoing mail and log it to a file.'
+  route_name: mail_sink.debug_settings
+  weight: 0
